@@ -7,7 +7,7 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="bg-slate-800">
+<body class="bg-black font-sans">
   <!-- Header  -->
   <section class="header-section w-full h-20 bg-black">
     <header>
@@ -35,11 +35,11 @@
 
   <!-- Hero Section  -->
   <section
-    class="hero-section w-full h-95  flex flex-col items-center md:flex-row  md:justify-center lg:flex-row lg:justify-center gap-2 bg-red-900">
+    class="hero-section w-full h-95  flex flex-col items-center justify-center md:flex-row  md:justify-center lg:flex-row lg:justify-center gap-2">
     <!-- Text  -->
     <div
-      class="text h-[50%] w-[50%] flex flex-col justify-center  gap-2 pt-2 pl-4 md:h-full lg:h-full  md:items-left  lg:items-left md:pl-29 lg:pl-29 bg-amber-400">
-      <h2 class="text-4xl font-bold text-white text-left">Hello, iam <br> M.Abdullah</h2>
+      class="text h-[50%] w-[50%] flex flex-col justify-center items-center text-center  gap-2 py-6  md:h-full lg:h-full  md:items-left ">
+      <h2 class="text-4xl font-bold text-white text-center">Hello, iam  M.Abdullah</h2>
       <p class="text-white/90 font-semibold">A passionate Web Developer</p>
       <button class="bg-indigo-600 rounded text-white px-2 py-1 font-bold cursor-pointer w-30">Get in Touch</button>
     </div>
@@ -53,9 +53,9 @@
   <!-- About Section  -->
   <section class="about-section w-full h-80 ">
     <div
-      class="about w-full  pt-10 flex flex-col items-center text-center md:items-start lg:items-start md:text-left lg:text-left md:pl-29 lg:pl-29">
+      class="about w-full  pt-10 flex flex-col items-center text-center md:items-start lg:items-start md:text-left lg:text-left md:pl-29 lg:pl-29 ">
       <h2 class="text-3xl text-white font-bold">About</h2>
-      <p class="text-white font-semibold mt-4 w-[100%] md:w-[60%] lg:w-[60%]">i am a Front-end Web Developer with over
+      <p class="text-white tracking-wider px-4 mt-4 w-[100%] md:w-[60%] lg:w-[60%] md:px-0 lg:px-0">I am a Front-end Web Developer with over
         1.5 years self learning experience specialize in building web Applications. I have a strong knowledge in HTML,
         Tailwind CSS and in Javascript</p>
     </div>
@@ -64,17 +64,17 @@
   </section>
 
   <!-- Projects Section  -->
-  <section class="projects-section w-full  bg-red-700">
-    <div class="projects w-[80%] mx-auto  flex flex-col bg-amber-800">
+  <section class="projects-section w-full ">
+    <div class="projects w-[80%] mx-auto  flex flex-col ">
 
-      <div class="heading text-center my-3 md:text-left lg:text-left">
-        <h2 class="text-3xl text-white font-bold">Projects</h2>
+      <div class="heading text-center my-3 md:text-left lg:text-left md:my-1 lg:my-1">
+        <h2 class="text-3xl text-white font-bold pb-4">Projects</h2>
       </div>
 
-      <div class="pro bg-amber-300 w-full h-full md:flex md:justify-center lg:flex lg:justify-center md:gap-4 lg:gap-4">
+      <div class="pro flex flex-col gap-8  w-full h-full md:flex-row md:justify-center lg:flex-row lg:justify-center md:gap-4 lg:gap-4">
 
         <!-- Project 1 -->
-        <div class="div bg-slate-800 flex-1">
+        <div class="div pb-5 rounded-lg bg-slate-800 flex-1">
 
           <!-- Card  -->
           <div class="card flex flex-col gap-3">
@@ -91,7 +91,7 @@
         </div>
 
         <!-- Project 2 -->
-        <div class="div bg-slate-800 flex-1"> 
+        <div class="div pb-5 rounded-lg bg-slate-800 flex-1"> 
 
           <!-- Card  -->
           <div class="card flex flex-col gap-3">
@@ -108,7 +108,7 @@
         </div>
 
         <!-- project 3 -->
-        <div class="div bg-slate-800  flex-1"> 
+        <div class="div pb-5 rounded-lg bg-slate-800  flex-1"> 
           
            <!-- Card  -->
           <div class="card flex flex-col gap-3">
@@ -126,12 +126,12 @@
   </section>
 
   <!-- Contact Section  -->
-   <section class="w-full h-70 bg-red-500 mt-5">
+   <section class="w-full h-70  mt-5">
     <div class="contact w-[80%] mx-auto">
-      <h2 class="text-3xl text-white font-bold">Contact</h2>
-      <p class="text-white/90 font-semibold">if you have any questions or just want to say hi, feel free to reach out!</p>
+      <h2 class="text-3xl text-white font-bold my-3">Contact</h2>
+      <p class="text-white/90 tracking-wider">if you have any questions or just want to say hi, feel free to reach out!</p>
 
-      <div class="form w-full bg-black">
+      <div class="form w-full">
         <form action="">
           <div class="inputs flex flex-col gap-2 my-3 md:flex-row lg:flex-row md:gap-3 lg:gap-3 md:my-8 lg:my-8 ">
             <input class="text-white font-semibold border-2 border-solid-white rounded-md w-70 p-1 md:w-123 lg:w-123" type="text" placeholder="Name">
@@ -145,9 +145,23 @@
       </div>
 
       <!-- Button  -->
-       <button class="bg-indigo-600 text-white font-bold p-1 w-70 rounded-md my-2 md:w-208 lg:w-220">send Message</button>
+       <button class="bg-indigo-600 text-white font-bold p-1 w-70 rounded-md my-2 md:w-250 lg:w-250">send Message</button>
     </div>
 
+   </section>
+
+   <section class="footer-section w-full tracking-widest text-center  md:flex  md:items-center ">
+    <div class="footer w-[80%] mx-auto mt-10  md:flex md:flex-col md:items-center">
+<p class=" font-bold text-indigo-600 tracking-wider  ">Copyright © 2025 M.Abdullah. All rights reserved.</p>
+
+<ul class="flex flex-col items-center mt-5 pb-2  md:flex-row md:gap-4 lg:flex-row lg:gap-4 text-indigo-600 ">
+  <li><a href="https://www.linkedin.com/in/mabdullahdeveloper/">Linked in</a></li>
+  <li><a href="https://www.facebook.com/muhammad.abdullah.643229">Facebook</a></li>
+  <li><a href="https://www.instagram.com/mabd.ullah171/">Instagram</a></li>
+  <li><a href="https://www.youtube.com/@Code-withAbdullah">Youtube</a></li>
+  <li><a href="https://github.com/Muhammad-Abdullah-programmer">Github</a></li>
+</ul>
+    </div>
    </section>
 
 </body>
